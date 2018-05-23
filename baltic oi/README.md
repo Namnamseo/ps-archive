@@ -1,0 +1,1 @@
+Baltic Olympiad in Informatics
