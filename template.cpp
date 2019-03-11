@@ -9,6 +9,7 @@ void read(pp& x){ scanf("%d%d",&x.first, &x.second); }
 void read(pll& x){ scanf("%lld%lld",&x.first, &x.second); }
 template<typename T,typename... Args>
 void read(T& a,Args&... b){ read(a); read(b...); }
+void cppio(){ ios_base::sync_with_stdio(0); cin.tie(0); }
 #define all(x) (x).begin(),(x).end()
 #define pb push_back
 #define eb emplace_back
