@@ -1,0 +1,204 @@
+right
+Rloop:
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+move
+pebble Rp
+border Rb
+jump Rloop
+
+Rp:
+get
+right
+right
+Rpl:
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+border Rplb
+jump Rpl
+Rplb:
+put
+right
+right
+jump Rloop
+
+Rb:
+right
+move
+right
+
+Lloop:
+border Lb
+pebble Lp
+move
+pebble Lp
+move
+pebble Lp
+move
+pebble Lp
+move
+pebble Lp
+move
+jump Lloop
+
+Lp:
+get
+Lpl:
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+border Lplb
+jump Lpl
+
+Lplb:
+put
+right
+right
+Lplbl:
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+border Lplblb
+jump Lplbl
+Lplblb:
+right
+right
+jump Lloop
+
+Lb:
+left
+border end
+move
+left
+jump Rloop
+
+end:
+left
+left
+
+el:
+pebble elp
+move
+border Halt
+jump el
+
+elp:
+get
+move
+put
+right
+right
+move
+right
+right
+jump el
+
+Halt:

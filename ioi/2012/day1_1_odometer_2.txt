@@ -1,0 +1,105 @@
+right
+chkleft:
+pebble okleft
+right
+move
+right
+right
+lpl:
+pebble lplc
+right
+move
+left
+lpr:
+pebble lprc
+left
+move
+right
+move
+halt
+lplc:
+get
+move
+put
+right
+right
+move
+right
+right
+jump lpl
+lprc:
+get
+move
+put
+right
+right
+move
+right
+right
+jump lpr
+
+okleft:
+get
+right
+move
+put
+left
+left
+move
+right
+move
+right
+right
+
+chkright:
+pebble okright
+left
+move
+right
+right
+rpr:
+pebble rprc
+left
+move
+right
+rpl:
+pebble rplc
+right
+move
+left
+move
+halt
+rprc:
+get
+move
+put
+right
+right
+move
+right
+right
+jump rpr
+rplc:
+get
+move
+put
+right
+right
+move
+right
+right
+jump rpl
+
+okright:
+get
+left
+move
+put
+left
+left
+move
+left
+move
+right
+right
+jump chkleft

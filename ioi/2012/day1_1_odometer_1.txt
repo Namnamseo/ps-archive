@@ -1,0 +1,17 @@
+right
+l0:
+pebble l1
+halt
+l1:
+get
+move
+left
+left
+pebble l2
+halt
+l2:
+get
+move
+left
+left
+jump l0

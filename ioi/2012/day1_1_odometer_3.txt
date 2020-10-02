@@ -1,0 +1,39 @@
+right
+first:
+pebble ff
+move
+jump first
+
+ff:
+proceedleft:
+get
+move
+put
+move
+
+findright:
+pebble foundright
+move
+jump findright
+
+foundright:
+left
+left
+get
+move
+pebble Halt
+put
+move
+
+findleft:
+pebble foundleft
+move
+jump findleft
+
+foundleft:
+right
+right
+jump proceedleft
+
+Halt:
+halt

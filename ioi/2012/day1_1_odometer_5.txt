@@ -1,0 +1,600 @@
+start00:
+right
+loop00:
+pebble lp00
+jump halt00
+
+lp00:
+border lb00
+move
+jump loop00
+
+lb00:
+right
+border start01
+move
+right
+lbl00:
+move
+border lblb00
+jump lbl00
+lblb00:
+right
+jump start00
+
+start01:
+right
+loop01:
+get
+pebble lp01
+jump halt01
+
+lp01:
+put
+border lb01
+move
+jump loop01
+
+lb01:
+right
+border start02
+move
+right
+lbl01:
+move
+border lblb01
+jump lbl01
+lblb01:
+right
+jump start01
+
+start02:
+right
+loop02:
+get
+get
+pebble lp02
+jump halt02
+
+lp02:
+put
+put
+border lb02
+move
+jump loop02
+
+lb02:
+right
+border start03
+move
+right
+lbl02:
+move
+border lblb02
+jump lbl02
+lblb02:
+right
+jump start02
+
+start03:
+right
+loop03:
+get
+get
+get
+pebble lp03
+jump halt03
+
+lp03:
+put
+put
+put
+border lb03
+move
+jump loop03
+
+lb03:
+right
+border start04
+move
+right
+lbl03:
+move
+border lblb03
+jump lbl03
+lblb03:
+right
+jump start03
+
+start04:
+right
+loop04:
+get
+get
+get
+get
+pebble lp04
+jump halt04
+
+lp04:
+put
+put
+put
+put
+border lb04
+move
+jump loop04
+
+lb04:
+right
+border start05
+move
+right
+lbl04:
+move
+border lblb04
+jump lbl04
+lblb04:
+right
+jump start04
+
+start05:
+right
+loop05:
+get
+get
+get
+get
+get
+pebble lp05
+jump halt05
+
+lp05:
+put
+put
+put
+put
+put
+border lb05
+move
+jump loop05
+
+lb05:
+right
+border start06
+move
+right
+lbl05:
+move
+border lblb05
+jump lbl05
+lblb05:
+right
+jump start05
+
+start06:
+right
+loop06:
+get
+get
+get
+get
+get
+get
+pebble lp06
+jump halt06
+
+lp06:
+put
+put
+put
+put
+put
+put
+border lb06
+move
+jump loop06
+
+lb06:
+right
+border start07
+move
+right
+lbl06:
+move
+border lblb06
+jump lbl06
+lblb06:
+right
+jump start06
+
+start07:
+right
+loop07:
+get
+get
+get
+get
+get
+get
+get
+pebble lp07
+jump halt07
+
+lp07:
+put
+put
+put
+put
+put
+put
+put
+border lb07
+move
+jump loop07
+
+lb07:
+right
+border start08
+move
+right
+lbl07:
+move
+border lblb07
+jump lbl07
+lblb07:
+right
+jump start07
+
+start08:
+right
+loop08:
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp08
+jump halt08
+
+lp08:
+put
+put
+put
+put
+put
+put
+put
+put
+border lb08
+move
+jump loop08
+
+lb08:
+right
+border start09
+move
+right
+lbl08:
+move
+border lblb08
+jump lbl08
+lblb08:
+right
+jump start08
+
+start09:
+right
+loop09:
+get
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp09
+jump halt09
+
+lp09:
+put
+put
+put
+put
+put
+put
+put
+put
+put
+border lb09
+move
+jump loop09
+
+lb09:
+right
+border start10
+move
+right
+lbl09:
+move
+border lblb09
+jump lbl09
+lblb09:
+right
+jump start09
+
+start10:
+right
+loop10:
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp10
+jump halt10
+
+lp10:
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+border lb10
+move
+jump loop10
+
+lb10:
+right
+border start11
+move
+right
+lbl10:
+move
+border lblb10
+jump lbl10
+lblb10:
+right
+jump start10
+
+start11:
+right
+loop11:
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp11
+jump halt11
+
+lp11:
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+border lb11
+move
+jump loop11
+
+lb11:
+right
+border start12
+move
+right
+lbl11:
+move
+border lblb11
+jump lbl11
+lblb11:
+right
+jump start11
+
+start12:
+right
+loop12:
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp12
+jump halt12
+
+lp12:
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+border lb12
+move
+jump loop12
+
+lb12:
+right
+border start13
+move
+right
+lbl12:
+move
+border lblb12
+jump lbl12
+lblb12:
+right
+jump start12
+
+start13:
+right
+loop13:
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp13
+jump halt13
+
+lp13:
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+border lb13
+move
+jump loop13
+
+lb13:
+right
+border start14
+move
+right
+lbl13:
+move
+border lblb13
+jump lbl13
+lblb13:
+right
+jump start13
+
+start14:
+right
+loop14:
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+pebble lp14
+jump halt14
+
+lp14:
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+put
+border lb14
+move
+jump loop14
+
+lb14:
+right
+border start15
+move
+right
+lbl14:
+move
+border lblb14
+jump lbl14
+lblb14:
+right
+jump start14
+
+halt14:
+put
+halt13:
+put
+halt12:
+put
+halt11:
+put
+halt10:
+put
+halt09:
+put
+halt08:
+put
+halt07:
+put
+halt06:
+put
+halt05:
+put
+halt04:
+put
+halt03:
+put
+halt02:
+put
+halt01:
+put
+halt00:
+start15:
